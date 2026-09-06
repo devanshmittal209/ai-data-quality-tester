@@ -73,6 +73,7 @@ Affected Records     AI Analysis
 
 The core quality checks are performed deterministically rather than relying on an AI model.
 Gemini is used as an additional interpretation layer to explain the detected issues and provide recommendations.
+```
 
 ---
 
