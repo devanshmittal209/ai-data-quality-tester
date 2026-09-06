@@ -80,10 +80,10 @@ Gemini is used as an additional interpretation layer to explain the detected iss
 ## Data Quality Checks
 
 - Missing Values: Identifies columns containing null or missing values and reports the number and percentage of affected records.
--Duplicate Records: Detects duplicate rows that may indicate repeated or incorrectly ingested records.
--Negative Numeric Values: Flags negative values in numeric columns where they may indicate invalid data.
--Potential Outliers: Uses the Interquartile Range (IQR) method to identify statistically unusual numeric values.
--Whitespace Inconsistency: Detects leading or trailing whitespace in categorical/text fields that can create inconsistent values during analysis.
+- Duplicate Records: Detects duplicate rows that may indicate repeated or incorrectly ingested records.
+- Negative Numeric Values: Flags negative values in numeric columns where they may indicate invalid data.
+- Potential Outliers: Uses the Interquartile Range (IQR) method to identify statistically unusual numeric values.
+- Whitespace Inconsistency: Detects leading or trailing whitespace in categorical/text fields that can create inconsistent values during analysis.
 
 ---
 
@@ -105,12 +105,12 @@ The AI provides contextual explanations and practical recommendations based on t
 
 ## Tech Stack
 
--Python
--Streamlit — web application and interface
--Pandas — data processing and analysis
--NumPy — numerical analysis
--Google Gemini API — AI-assisted insights and Q&A
--python-dotenv — local environment variable management
+- Python
+- Streamlit — web application and interface
+- Pandas — data processing and analysis
+- NumPy — numerical analysis
+- Google Gemini API — AI-assisted insights and Q&A
+- python-dotenv — local environment variable management
 
 ---
 
@@ -137,10 +137,11 @@ The project gave me hands-on experience with data validation, statistical analys
 
 ## Future Improvements
 
--Additional schema and data-type validation
--Configurable data-quality rules
--Custom validation thresholds
--Data-quality trend tracking across dataset versions
--Exportable quality reports
--Additional data profiling metrics
+- Additional schema and data-type validation
+- Configurable data-quality rules
+- Custom validation thresholds
+- Data-quality trend tracking across dataset versions
+- Exportable quality reports
+- Additional data profiling metrics
+
 ---
